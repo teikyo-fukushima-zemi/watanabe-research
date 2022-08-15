@@ -19,6 +19,7 @@ export const RadioButtons = ({ index }: RadioButtonsProps) => {
               <input
                 type="radio"
                 name={`radio-${index}-1-${i}`}
+                key={i}
                 className="form-radio mr-2 mb-2"
               />
             ))}
@@ -29,6 +30,7 @@ export const RadioButtons = ({ index }: RadioButtonsProps) => {
               <input
                 type="radio"
                 name={`radio-${index}-2-${i}`}
+                key={i}
                 className="form-radio mr-2 mb-2"
               />
             ))}
@@ -39,6 +41,7 @@ export const RadioButtons = ({ index }: RadioButtonsProps) => {
               <input
                 type="radio"
                 name={`radio-${index}-3-${i}`}
+                key={i}
                 className="form-radio mr-2 mb-2"
               />
             ))}
@@ -49,6 +52,7 @@ export const RadioButtons = ({ index }: RadioButtonsProps) => {
               <input
                 type="radio"
                 name={`radio-${index}-4-${i}`}
+                key={i}
                 className="form-radio mr-2"
               />
             ))}

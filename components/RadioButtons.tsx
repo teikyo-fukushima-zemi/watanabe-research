@@ -1,4 +1,9 @@
-export const RadioButtons = () => {
+interface RadioButtonsProps {
+  // 上から何面目か
+  index: number;
+}
+
+export const RadioButtons = ({ index }: RadioButtonsProps) => {
   return (
     <div className="mx-3">
       <div className="flex flex-col">
@@ -7,7 +12,7 @@ export const RadioButtons = () => {
             {[...Array(4)].map((_, i) => (
               <input
                 type="radio"
-                name={`radio-1-${i}`}
+                name={`radio-${index}-1-${i}`}
                 className="form-radio mr-2 mb-2"
               />
             ))}
@@ -17,7 +22,7 @@ export const RadioButtons = () => {
             {[...Array(4)].map((_, i) => (
               <input
                 type="radio"
-                name={`radio-2-${i}`}
+                name={`radio-${index}-2-${i}`}
                 className="form-radio mr-2 mb-2"
               />
             ))}
@@ -27,7 +32,7 @@ export const RadioButtons = () => {
             {[...Array(4)].map((_, i) => (
               <input
                 type="radio"
-                name={`radio-3-${i}`}
+                name={`radio-${index}-3-${i}`}
                 className="form-radio mr-2 mb-2"
               />
             ))}
@@ -37,7 +42,7 @@ export const RadioButtons = () => {
             {[...Array(4)].map((_, i) => (
               <input
                 type="radio"
-                name={`radio-4-${i}`}
+                name={`radio-${index}-4-${i}`}
                 className="form-radio mr-2"
               />
             ))}
@@ -47,5 +52,3 @@ export const RadioButtons = () => {
     </div>
   );
 };
-
-

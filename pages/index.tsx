@@ -19,10 +19,9 @@ const Home: NextPage = () => {
 
         <div className={styles.grid}>
           <RadioButtons index={0} />
-
           <RadioButtons index={1} />
-
           <RadioButtons index={2} />
+          <RadioButtons index={3} />
         </div>
       </main>
 

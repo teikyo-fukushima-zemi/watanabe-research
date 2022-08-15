@@ -8,7 +8,7 @@ export const RadioButtons = () => {
               <input
                 type="radio"
                 name={`radio-1-${i}`}
-                className="form-radio mx-2 mb-2"
+                className="form-radio mr-2 mb-2"
               />
             ))}
           </label>
@@ -18,7 +18,7 @@ export const RadioButtons = () => {
               <input
                 type="radio"
                 name={`radio-2-${i}`}
-                className="form-radio mx-2 mb-2"
+                className="form-radio mr-2 mb-2"
               />
             ))}
           </label>
@@ -28,7 +28,7 @@ export const RadioButtons = () => {
               <input
                 type="radio"
                 name={`radio-3-${i}`}
-                className="form-radio mx-2 mb-2"
+                className="form-radio mr-2 mb-2"
               />
             ))}
           </label>
@@ -38,7 +38,7 @@ export const RadioButtons = () => {
               <input
                 type="radio"
                 name={`radio-4-${i}`}
-                className="form-radio mx-2"
+                className="form-radio mr-2"
               />
             ))}
           </label>
